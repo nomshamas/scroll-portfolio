@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nom. Shamas Portfolio</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no``">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<!--  Header & Navigation Section - Which include Menus & Logo -->
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-white shadow sticky-top d-lg-none d-flex">
+			<div class="container">
+				<a href="index.html" class="navbar-brand"> <img src="img/logo.png" class="img-fluid" alt="nom shamas logo"> </a>
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#mynavbar"> <span class="navbar-toggler-icon"> </span> </button>
+				<div class="collapse navbar-collapse" id="mynavbar">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+						<li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+						<li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+						<li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+						<li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="container-fluid">
+			<div class="row main-con">
+				<div class="col-lg-2 shadow d-lg-block d-none side-one">
+					<div class="user-bio-con">
+						<div class="user-bio">
+							<img src="img/me.png" class="img-fluid">
+							<h6 class="text-center">Nouman Butt</h6>
+						</div>
+						<div class="user-menu">
+							<a id="btn-home" href="index.html" >Home</a>
+							<a id="btn-about" href="#about" >About</a>
+							<a id="btn-services" href="#services" >Services</a>
+							<a id="btn-portfolio" href="#portfolio" >Portfolio</a>
+							<a id="btn-contact" href="#contact" >Contact</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-10 col-md-12 side-two">
+					<div class="user-view">
+						<!-- Header Section - Which include welcome of a site -->
+						<section id="home">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col">
+										<div class="div-center">
+											<div class="div-c text-center">
+												<h1 class="display-2"> Nom. Shamas </h1>
+												<h4> Committed to Provide Innovative Solution </h4>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- About Section - Which include my story with my picture - about me -->
+						<section id="about">
+							<div class="container-fluid">
+								<div class="row justify-content-center text-center bg-dark text-white">
+									<div class="col p-4">
+										<h1 class="display-5"> Explore me </h1>
+										<p> Know how I started. </p>
+									</div>
+								</div>
+								<div class="row justify-content-md-around align-items-center" style="padding: 80px 0;">
+									<div class="col-md-7 col-sm-7 text-justify">
+										<h6 class="text-gold font-weight-bolder">HELLO THERE.</h6>
+										<h3 class="display-3"> I'm Nom. </h3>
+										<p> I am young talented software and web developer with two plus year of experience and having advance skills in developing and maintaining software, web application, user interfaces and interactive and responsive websites. I also acquired fame and popularity as a front-end developer. </p>
+										<p id="p-hide"></p>
+										<a id="btn-hide" class="btn btn-outline-dark" onclick="changePara();">more</a>
+									</div>
+									<div class="col-xl-3 col-lg-4 col-md-5 col-sm-5 col-3 order-md-last order-first mb-2 mb-sm-0">
+										<div class="img-bg">
+											<a href="img/about-me.jpg" target="_blank"> <img src="img/about-me.jpg" class="img-fluid" alt="my picture"> </a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- Services Section - Which include what i'm offer - What i do -->
+						<section id="services">
+							<div class="container-fluid">
+								<div class="row justify-content-center text-center bg-dark text-white">
+									<div class="col p-4">
+										<h1 class="display-5"> What I Do </h1>
+										<p> Provide digital solutions for business to grow it to the next level. </p>
+									</div>
+								</div>
+								<div class="row justify-content-center card-columns text-center  my-5">
+									<div class="col-sm-5 card shadow">		
+										<div class="card-body py-5">
+											<h4 class="card-title"> UI/UX Design </h4>
+											<p class="card-text"> UI/UX design referred to the task associated with designing of a website or a software. It basically include ront-end. </p>
+										</div>			
+									</div>
+									<div class="col-sm-5 card shadow">	
+										<div class="card-body py-5">
+											<h4 class="card-title"> Website Development </h4>
+											<p class="card-text"> It referred to the task associated with designing & developing a website. It include front-end and back-end. </p>
+										</div>			
+									</div>
+									<div class="col-sm-5 card shadow">			
+										<div class="card-body py-5">
+											<h4 class="card-title"> WordPress Website </h4>
+											<p class="card-text"> A contant management platform where dynamic, responsive websites are made with the help of Themes and plugins. </p>
+										</div>		
+									</div>
+									<div class="col-sm-5 card shadow">
+										<div class="card-body py-5">
+											<h4 class="card-title"> Mobile Development </h4>
+											<p class="card-text"> It referred to the task associated with developing a mobile software. It include front-end and back-end. </p>
+										</div>		
+									</div>
+								</div>	
+							</div>
+						</section>
+
+						<!-- Portfolio Section - Which include my recent work  -->
+						<section id="portfolio">
+							<div class="container-fluid">
+								<div class="row justify-content-center text-center bg-dark text-white">
+									<div class="col p-4">
+										<h1 class="display-5"> Recent Projects </h1>
+										<p> What I have previously done for my clients. </p>
+									</div>
+								</div>
+								<div class="row justify-content-center my-5">
+									<div class="button-group">
+										<button class="btn active" type="button"> All </button>
+										<button class="btn" type="button"> Popular </button>
+										<button class="btn" type="button"> Latest </button>
+										<button class="btn" type="button"> Upcoming </button>
+									</div>
+								</div>
+								<div class="row justify-content-center my-4">
+									<div class="col">
+										<div class="card-columns">
+											<a href="img/a.png" target="_blank">
+												<div class="card">
+													<img src="img/a.png" class="img-fluid">
+													<div class="card-body">
+														<h6 class="card-title">Popular</h6>
+													</div>
+												</div>
+											</a>
+											<a href="img/b.png" target="_blank">
+												<div class="card">
+													<img src="img/b.png" class="img-fluid">
+													<div class="card-body">
+														<h6>Latest</h6>
+													</div>
+												</div>
+											</a>
+											<a href="img/c.png" target="_blank">
+												<div class="card">
+													<img src="img/c.png" class="img-fluid">
+													<div class="card-body">
+														<h6>Latest</h6>
+													</div>
+												</div>
+											</a>
+											<a href="img/d.png" target="_blank">
+												<div class="card">
+													<img src="img/d.png" class="img-fluid">
+													<div class="card-body">
+														<h6>Upcoming</h6>
+													</div>
+												</div>
+											</a>
+											<a href="img/a.png" target="_blank">
+												<div class="card">
+													<img src="img/a.png" class="img-fluid">
+													<div class="card-body">
+														<h6>Popular</h6>
+													</div>
+												</div>
+											</a>
+											<a href="img/b.png" target="_blank">
+												<div class="card">
+													<img src="img/b.png" class="img-fluid">
+													<div class="card-body">
+														<h6>Upcoming</h6>
+													</div>
+												</div>
+											</a>
+										</div>				
+									</div>
+								</div>
+							</div>
+						</section>
+
+						<!-- Contact Form Section - By filling this user can contact me -->
+						<section id="contact">
+							<div class="container-fluid">
+								<div class="row justify-content-center text-center bg-dark text-white">
+									<div class="col p-4">
+										<h1 class="display-5"> Contact </h1>
+										<p> Have a project you want to bring to life? Drop me a message today, and let's get started on making something great! </p>
+									</div>
+								</div>
+								<div class="row justify-content-center align-items-center my-5">
+									<div class="col-lg-7 col-md-8 p-4">
+										<form action="">
+											<div class="form-group">
+												<input id="name" type="text" class="form-control" placeholder="Name" min="6" max="25" required>
+											</div>
+											<div class="form-group">
+												<input id="phone" type="tel" class="form-control" placeholder="Phone number" required>
+											</div>
+											<div class="form-group">
+												<input id="email" type="email" class="form-control" placeholder="Email address" required>
+											</div>
+											<div class="form-group">
+												<input id="subject" type="text" class="form-control" placeholder="Subject" required>
+											</div>
+											<div class="form-group">
+												<textarea id="body" class="form-control" placeholder="Describe your message !" required></textarea>
+											</div>
+
+											<button class="btn btn-dark btn-block mt-3" type="submit" onclick="sendEmail()"> Send Message </button>
+										</form>								
+									</div>
+									<div class="col-md-4 text-center p-4">
+										<div>
+											<h6 class="font-weight-bold"> PHONE </h6>
+											<p> +92 3494091964 </p>
+											<hr class="d-md-none mx-auto border">
+										</div>
+										<div>
+											<h6 class="font-weight-bold"> HOURS </h6>
+											<p> Monday - Friday <b style="font-size: 24px;"> : </b> 9 AM - 7 PM </p>
+											<hr class="d-md-none mx-auto border">
+										</div>
+										<div>
+											<h6 class="font-weight-bold"> GMAIL </h6>
+											<p> nomshamas@gmail.com </p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+					</div> 
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+
+</body>
+</html>

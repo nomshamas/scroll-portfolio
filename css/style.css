@@ -1,0 +1,188 @@
+
+/*============  Global Styling  ==========*/
+
+#services .card:hover,
+#completed-project .card:hover {
+	box-shadow: -3px 18px 20px 0px gray !important;
+	transform: translateY(-10px);
+	transition: all 0.5s ease-in-out;
+}
+
+.text-gold {
+	color: #b8a07e;
+}
+
+hr {
+	width: 30px;
+}
+
+/*============  Navigation  ==========*/
+
+.nav-link {
+	padding: 4px 20px !important;
+	letter-spacing: 3px;
+}
+
+.nav-link:hover {
+	background-color: gray;
+	color: white !important;	
+}
+
+/*=============  Main Container  =============*/
+
+.main-con {
+	height: 100vh;
+	overflow-y: hidden;
+	display: flex; justify-content: center; align-items: center;
+}
+
+.side-one {
+	height: 98vh;
+}
+
+.side-two {
+	height: 98vh; width: 100%; overflow-y: scroll;
+}
+
+/*============  Side-Menu  ==========*/
+
+.user-bio-con {
+	height: 100%; display: flex; flex-direction: column; justify-content: space-around; overflow-y: auto;
+}
+
+.user-bio img {
+	height: 30vh;
+	width: 100%;
+	object-fit: contain;
+}
+
+.user-bio h6 {
+	height: 10vh;
+	letter-spacing: 4px;
+	padding: 20px 0 !important;
+}
+
+.user-menu a {
+	color: #000 !important;
+	display: block;
+	padding: 16px 0;
+	text-align: center;
+	letter-spacing: 3px;
+}
+
+.user-menu a:hover {
+	background-color: gray;
+	text-decoration: none;
+	color: white !important;
+}
+
+.user-menu-active {
+	background-color: gray;
+	text-decoration: none;
+	color: white !important;
+	border-right: 6px solid #b8a07e;
+}
+
+/*============  Home  ==========*/
+
+.display-2 {
+	text-shadow: 5px 5px 5px black;
+}
+
+/*============  About  ==========*/
+
+/*============  Services  ==========*/
+
+
+/*============  Portfolio  ==========*/
+
+#portfolio button:hover,
+#portfolio .active {
+	background-color: gray !important;
+	color: white !important;	
+}
+
+#portfolio .card:hover {
+	box-shadow: 5px 5px 5px gray;	
+	transform: all .5 ease-in-out;
+}
+
+#portfolio .card img {
+	object-fit: cover;
+	width: 100%;
+	height: 150px;
+}
+
+#portfolio .card h6 {
+	color: black;
+	letter-spacing: 2px;
+}
+
+/*=========    Media Query =============*/
+
+@media (min-width: 0px) {
+	.div-center {
+		height: 96vh; display: flex; flex-direction: column; justify-content: center;
+	}
+
+	#about img {
+		box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
+		height: 140px;
+		object-fit: cover;
+	}
+
+	.display-2 {
+		font-size: 3rem !important;
+	}
+
+	#portfolio .card-columns {
+		column-count: 1 !important;
+	}
+}
+
+@media (min-width: 576px) {
+
+	#about .img-bg {
+		border: 15px solid #b8a07e !important;
+		/*border-bottom: 15px solid #b8a07e !important;
+		border-left: 15px solid #b8a07e !important;*/
+		box-shadow: -3px 18px 20px 0px black !important;
+		max-width: 280px;
+	}
+
+	#about img {
+		height: 340px;
+		margin-top: -50px;
+		margin-right: -50px;
+		margin-bottom: 25px;
+		margin-left: 25px;
+	}
+
+	#portfolio .card-columns {
+		column-count: 2 !important;
+	}
+}
+
+@media (min-width: 768px) {
+
+	.display-2 {
+		font-size: 5rem !important;
+	}
+}
+
+@media (min-width: 992px) {
+
+	.div-center {
+		height: 98vh;
+	}
+
+	#portfolio .card-columns {
+		column-count: 3 !important;
+	}
+}
+
+@media (min-width: 1200px) {
+
+
+
+}
